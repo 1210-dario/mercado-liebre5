@@ -1,0 +1,117 @@
+.home{
+    background-color: var(--color-gris-claro);
+}
+
+/* Banner */
+
+.home .banner{
+    width: 100vw;
+}
+
+/* Main */
+
+.home .main-products{
+    width: 90%;
+    margin-left: 5%;
+}
+
+.home .img-product{
+    width: 100%;
+}
+
+.home main h2{
+    font-size: 24px;
+    color: var(--color-gris-oscuro);
+    margin-bottom: 24px;
+}
+
+.home main .main-products article .description .precio-desc{
+    display: flex;
+}
+
+.home main .main-products article .description .precio-desc .precio{
+    font-size: 18px;
+    width: 30%;
+}
+
+.home main .main-products article .description .precio-desc .desc{
+    color: var(--color-verde);
+    font-size: 16px;
+    width: 70%;
+}
+
+.home main .main-products article .description .truck{
+    position: absolute;
+    right: 44px;
+    top: -22px;
+}
+
+.home main .fa-truck{   
+    color: var(--color-verde);
+    /* margin-top: -33px; */
+    display: block;
+    font-size: 16px;
+    padding: 5px;
+    width: 30px;
+    height: 30px;
+    border: 1px solid #39b54a;
+    background-color: #FFF;
+    border-radius: 50%;
+    position: absolute;
+    /* right: 30px; */
+}
+
+.home main h3{
+    font-size: 16px;
+    color: var(--color-gris-oscuro);
+    display: none;
+}
+
+.home main article{
+    margin-bottom: 10px;
+    width: 100%;
+}
+
+.home main article .description{
+    border-top: 1px solid var(--color-gris-claro);
+    padding: 15px;
+    background-color: white;
+    position: relative;
+}
+
+.home main .main-products .products-container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+/* Media Querys*/
+
+@media (min-width: 361px){
+    /* Main */
+    .home main h3{
+        display: block;
+    }
+
+    .home main article{
+        box-shadow: 0px 0px 10px rgb(100, 100, 100);
+    }
+}
+
+@media (min-width: 769px){
+
+    .home main article{
+        width: 45%;
+        margin-bottom: 20px;
+    }
+}
+
+@media (min-width: 1024px){
+    .home main article{
+        width: 22%;
+    }
+
+    .home main .main-products article .description .precio-desc .desc{
+        text-align: center;
+    }
+}

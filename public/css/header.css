@@ -1,0 +1,140 @@
+/*Header*/
+
+header {
+    background-color: var(--color-amarillo);
+    padding-bottom: 1.7em;
+}
+
+header .nav1 .header1{
+    display: flex;
+    padding: 20px;
+    justify-content:space-between;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+header .nav1 .header1 a{
+    width: 49%;
+}
+
+header .nav1 .header1 .head1{
+    width: 49%;
+    display: flex;
+    align-items: center;
+}
+
+header .nav1 .header1 .head2{
+    width: 100%;
+    margin-top: 2em;
+    color: black;
+}
+
+header .nav1 .header1 .head1 form{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: row-reverse;
+}
+
+header .nav1 .header1 .head1 form .searchBar{
+    position: relative;
+    width: 100%;
+    height: 37px;
+    border: none;
+    border-radius: 5px;
+}
+
+header .nav1 .header1 .head1 form button{
+    background-color: white;
+    border: none;
+    border-radius: 12%;
+    position: absolute;
+    height: 3%;
+    width: 6%;
+}
+
+header .nav1 .header1 .head1 form button i{
+    color: grey;
+}
+
+header p{
+    text-align: center;
+}
+
+header .nav1 .listas{
+    display: none;
+}
+
+header .burguer-menu i{
+    font-size: 24px;
+}
+
+header .burguer-menu{
+    color: white;
+    background-color: var(--color-celeste);
+    width: 40px;
+    height: 40px;
+    border-radius: 10%;
+    border: none;
+}
+
+header .burguer{
+    text-align: center;
+}
+
+
+@media (min-width: 361px){
+    /* Main */
+
+    header .nav1 .listas{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    
+    header .nav1 .lista1{
+        display: flex;
+        width: 100%;
+        justify-content: space-evenly;
+    }
+    
+    header .nav1 .lista2{
+        display: flex;
+        width: 100%;
+        justify-content: space-around;
+    }
+
+    header .burguer-menu{
+        display: none;
+    }
+}
+
+@media (min-width: 769px){
+    header .nav1 .header1 a{
+        width: 30%;
+    }
+    
+    header .nav1 .header1 .head1{
+        width: 30%;
+        display: flex;
+        align-items: center;
+    }
+    
+    header .nav1 .header1 .head2{
+        width: 30%;
+        margin-top: 0px;
+    }
+
+    header .nav1 .listas{
+        justify-content: space-around;
+    }
+
+    header .nav1 .lista1{
+        width: 36%;
+        justify-content: space-between;
+    }
+    
+    header .nav1 .lista2{
+        width: 36%;
+        justify-content: space-between;
+    }
+}

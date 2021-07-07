@@ -1,0 +1,63 @@
+/* Footer*/
+
+footer{
+    background-color: white;
+}
+
+footer div{
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+footer h4{
+    font-size: 16px;
+}
+
+footer p{
+    width: 240px;
+    margin: 0 auto;
+}
+
+footer .fa-credit-card{
+    margin-top: 60px;
+    font-size: 32px;
+    margin-bottom: 10px;
+}
+
+footer .fa-gift{
+    font-size: 32px;
+    margin-bottom: 10px;
+}
+
+footer .fa-user-shield{
+    font-size: 32px;
+    margin-bottom: 10px;
+}
+
+footer .copyright h4{
+    font-size: 12px;
+}
+
+footer .copyright{
+    padding-bottom: 2em;
+}
+
+footer h4, footer p{
+    color: var(--color-gris-oscuro);
+}
+
+footer .copyright{
+    text-align: left;
+    margin-left: 15px;
+}
+
+@media (min-width:769px){
+    footer p{
+        width: auto;
+    }
+
+    footer .copyright{
+        text-align: center;
+        margin-left: 0px;
+    }
+}
